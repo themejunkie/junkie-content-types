@@ -47,7 +47,7 @@ With small code in your themes, you can enable several custom post types you nee
 4. Log in to your WordPress admin panel and click the Plugins menu.
 5. Then activate the plugin.
 
-== FAQ ==
+== Frequently Asked Questions ==
 
 = How to enable the post type? =
 Add this line in your theme `functions.php`.
