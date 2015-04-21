@@ -1,0 +1,826 @@
+# Copyright (C) 2015 Theme Junkie
+# This file is distributed under the GPL2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Junkie Content Types 1.0.0\n"
+"Report-Msgid-Bugs-To: http://www.theme-junkie.com/\n"
+"POT-Creation-Date: 2015-04-21 07:21:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Satrya (satrya@theme-junkie.com)\n"
+"Language-Team: Satrya (satrya@theme-junkie.com)\n"
+"X-Generator: grunt-wp-i18n 0.5.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: "
+"__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:4c,1,2;_"
+"x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Textdomain-Support: yes\n"
+
+#: metaboxes/department-metaboxes.php:16
+msgid "Department's Picture"
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:18 metaboxes/team-metaboxes.php:18
+msgid "Social Options"
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:41 metaboxes/team-metaboxes.php:41
+msgid "Twitter"
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:42 metaboxes/team-metaboxes.php:42
+msgid "Twitter URL."
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:56 metaboxes/team-metaboxes.php:56
+msgid "Facebook"
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:57 metaboxes/team-metaboxes.php:57
+msgid "Facebook URL."
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:71 metaboxes/team-metaboxes.php:71
+msgid "Google Plus"
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:72 metaboxes/team-metaboxes.php:72
+msgid "Google Plus URL."
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:86 metaboxes/team-metaboxes.php:86
+msgid "LinkedIn"
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:87 metaboxes/team-metaboxes.php:87
+msgid "LinkedIn URL."
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:101 metaboxes/team-metaboxes.php:101
+msgid "Pinterest"
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:102 metaboxes/team-metaboxes.php:102
+msgid "Pinterest URL."
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:116 metaboxes/team-metaboxes.php:116
+msgid "Dribbble"
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:117 metaboxes/team-metaboxes.php:117
+msgid "Dribbble URL."
+msgstr ""
+
+#: metaboxes/doctor-metaboxes.php:183
+msgid "Doctor's Photo"
+msgstr ""
+
+#: metaboxes/feature-metaboxes.php:16
+msgid "Feature Picture"
+msgstr ""
+
+#: metaboxes/service-metaboxes.php:16
+msgid "Service Picture"
+msgstr ""
+
+#: metaboxes/slider-metaboxes.php:18
+msgid "Slide URL"
+msgstr ""
+
+#: metaboxes/slider-metaboxes.php:92
+msgid "Slider Image"
+msgstr ""
+
+#: metaboxes/team-metaboxes.php:183
+msgid "Team's Photo"
+msgstr ""
+
+#: metaboxes/testimonial-metaboxes.php:18
+msgid "Customer Options"
+msgstr ""
+
+#: metaboxes/testimonial-metaboxes.php:41
+msgid "Website Name"
+msgstr ""
+
+#: metaboxes/testimonial-metaboxes.php:42
+msgid "Customer's website name."
+msgstr ""
+
+#: metaboxes/testimonial-metaboxes.php:56
+msgid "Website URL"
+msgstr ""
+
+#: metaboxes/testimonial-metaboxes.php:57
+msgid "Customer's website url"
+msgstr ""
+
+#: metaboxes/testimonial-metaboxes.php:71
+msgid "Age"
+msgstr ""
+
+#: metaboxes/testimonial-metaboxes.php:72
+msgid "Customer's age"
+msgstr ""
+
+#: metaboxes/testimonial-metaboxes.php:135
+msgid "Customer's Photo"
+msgstr ""
+
+#: postypes/department.php:16 postypes/department.php:18
+#: taxonomies/doctor-tax.php:13 taxonomies/doctor-tax.php:15
+msgid "Departments"
+msgstr ""
+
+#: postypes/department.php:17 taxonomies/doctor-tax.php:14
+msgid "Department"
+msgstr ""
+
+#: postypes/department.php:19 taxonomies/doctor-tax.php:16
+msgid "All Departments"
+msgstr ""
+
+#: postypes/department.php:20 postypes/doctor.php:20 postypes/feature.php:20
+#: postypes/service.php:20 postypes/slider.php:20 postypes/team.php:20
+#: postypes/testimonial.php:20
+msgid "Add New"
+msgstr ""
+
+#: postypes/department.php:21 taxonomies/doctor-tax.php:20
+msgid "Add New Department"
+msgstr ""
+
+#: postypes/department.php:22 taxonomies/doctor-tax.php:17
+msgid "Edit Department"
+msgstr ""
+
+#: postypes/department.php:23
+msgid "New Department"
+msgstr ""
+
+#: postypes/department.php:24
+msgid "View Department"
+msgstr ""
+
+#: postypes/department.php:25 taxonomies/doctor-tax.php:24
+msgid "Search Departments"
+msgstr ""
+
+#: postypes/department.php:26
+msgid "No Departments found"
+msgstr ""
+
+#: postypes/department.php:27
+msgid "No Departments found in Trash"
+msgstr ""
+
+#: postypes/department.php:68
+msgid "Enter the department's name here"
+msgstr ""
+
+#: postypes/department.php:83
+msgid "Department updated. <a href=\"%s\">View Department</a>"
+msgstr ""
+
+#: postypes/department.php:84 postypes/doctor.php:84 postypes/feature.php:84
+#: postypes/service.php:84 postypes/slider.php:80 postypes/team.php:84
+#: postypes/testimonial.php:84
+msgid "Custom field updated."
+msgstr ""
+
+#: postypes/department.php:85 postypes/doctor.php:85 postypes/feature.php:85
+#: postypes/service.php:85 postypes/slider.php:81 postypes/team.php:85
+#: postypes/testimonial.php:85
+msgid "Custom field deleted."
+msgstr ""
+
+#: postypes/department.php:86
+msgid "Department updated."
+msgstr ""
+
+#: postypes/department.php:88
+#. translators: %s: date and time of the revision
+msgid "Department restored to revision from %s"
+msgstr ""
+
+#: postypes/department.php:89
+msgid "Department published. <a href=\"%s\">View department</a>"
+msgstr ""
+
+#: postypes/department.php:90
+msgid "Department saved."
+msgstr ""
+
+#: postypes/department.php:91
+msgid ""
+"Department submitted. <a target=\"_blank\" href=\"%s\">Preview "
+"department</a>"
+msgstr ""
+
+#: postypes/department.php:92
+msgid ""
+"Department scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview department</a>"
+msgstr ""
+
+#: postypes/department.php:94 postypes/doctor.php:94 postypes/feature.php:94
+#: postypes/service.php:94 postypes/slider.php:90 postypes/team.php:94
+#: postypes/testimonial.php:94
+#. translators: Publish box date format, see http:php.net/date
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: postypes/department.php:95
+msgid ""
+"Department draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"department</a>"
+msgstr ""
+
+#: postypes/department.php:111 postypes/doctor.php:111 postypes/feature.php:111
+#: postypes/service.php:111 postypes/slider.php:107 postypes/team.php:111
+msgid "Name"
+msgstr ""
+
+#: postypes/department.php:115 postypes/feature.php:115
+#: postypes/service.php:115
+msgid "Picture"
+msgstr ""
+
+#: postypes/doctor.php:16 postypes/doctor.php:18
+msgid "Doctors"
+msgstr ""
+
+#: postypes/doctor.php:17
+msgid "Doctor"
+msgstr ""
+
+#: postypes/doctor.php:19
+msgid "All Doctors"
+msgstr ""
+
+#: postypes/doctor.php:21
+msgid "Add New Doctor"
+msgstr ""
+
+#: postypes/doctor.php:22
+msgid "Edit Doctor"
+msgstr ""
+
+#: postypes/doctor.php:23
+msgid "New Doctor"
+msgstr ""
+
+#: postypes/doctor.php:24
+msgid "View Doctor"
+msgstr ""
+
+#: postypes/doctor.php:25
+msgid "Search Doctors"
+msgstr ""
+
+#: postypes/doctor.php:26
+msgid "No Doctors found"
+msgstr ""
+
+#: postypes/doctor.php:27
+msgid "No Doctors found in Trash"
+msgstr ""
+
+#: postypes/doctor.php:68
+msgid "Enter the doctor's name here"
+msgstr ""
+
+#: postypes/doctor.php:83
+msgid "Doctor updated. <a href=\"%s\">View Doctor</a>"
+msgstr ""
+
+#: postypes/doctor.php:86
+msgid "Doctor updated."
+msgstr ""
+
+#: postypes/doctor.php:88
+#. translators: %s: date and time of the revision
+msgid "Doctor restored to revision from %s"
+msgstr ""
+
+#: postypes/doctor.php:89
+msgid "Doctor published. <a href=\"%s\">View doctor</a>"
+msgstr ""
+
+#: postypes/doctor.php:90
+msgid "Doctor saved."
+msgstr ""
+
+#: postypes/doctor.php:91
+msgid "Doctor submitted. <a target=\"_blank\" href=\"%s\">Preview doctor</a>"
+msgstr ""
+
+#: postypes/doctor.php:92
+msgid ""
+"Doctor scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview doctor</a>"
+msgstr ""
+
+#: postypes/doctor.php:95
+msgid "Doctor draft updated. <a target=\"_blank\" href=\"%s\">Preview doctor</a>"
+msgstr ""
+
+#: postypes/doctor.php:115 postypes/team.php:115 postypes/testimonial.php:115
+msgid "Photo"
+msgstr ""
+
+#: postypes/feature.php:16 postypes/feature.php:18
+msgid "Features"
+msgstr ""
+
+#: postypes/feature.php:17
+msgid "Feature"
+msgstr ""
+
+#: postypes/feature.php:19
+msgid "All Features"
+msgstr ""
+
+#: postypes/feature.php:21
+msgid "Add New Feature"
+msgstr ""
+
+#: postypes/feature.php:22
+msgid "Edit Feature"
+msgstr ""
+
+#: postypes/feature.php:23
+msgid "New Feature"
+msgstr ""
+
+#: postypes/feature.php:24
+msgid "View Feature"
+msgstr ""
+
+#: postypes/feature.php:25
+msgid "Search Features"
+msgstr ""
+
+#: postypes/feature.php:26
+msgid "No Features found"
+msgstr ""
+
+#: postypes/feature.php:27
+msgid "No Features found in Trash"
+msgstr ""
+
+#: postypes/feature.php:68
+msgid "Enter the feature name here"
+msgstr ""
+
+#: postypes/feature.php:83
+msgid "Feature updated. <a href=\"%s\">View Feature</a>"
+msgstr ""
+
+#: postypes/feature.php:86
+msgid "Feature updated."
+msgstr ""
+
+#: postypes/feature.php:88
+#. translators: %s: date and time of the revision
+msgid "Feature restored to revision from %s"
+msgstr ""
+
+#: postypes/feature.php:89
+msgid "Feature published. <a href=\"%s\">View feature</a>"
+msgstr ""
+
+#: postypes/feature.php:90
+msgid "Feature saved."
+msgstr ""
+
+#: postypes/feature.php:91
+msgid "Feature submitted. <a target=\"_blank\" href=\"%s\">Preview feature</a>"
+msgstr ""
+
+#: postypes/feature.php:92
+msgid ""
+"Feature scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview feature</a>"
+msgstr ""
+
+#: postypes/feature.php:95
+msgid "Feature draft updated. <a target=\"_blank\" href=\"%s\">Preview feature</a>"
+msgstr ""
+
+#: postypes/service.php:16 postypes/service.php:18
+msgid "Services"
+msgstr ""
+
+#: postypes/service.php:17
+msgid "Service"
+msgstr ""
+
+#: postypes/service.php:19
+msgid "All Services"
+msgstr ""
+
+#: postypes/service.php:21
+msgid "Add New Service"
+msgstr ""
+
+#: postypes/service.php:22
+msgid "Edit Service"
+msgstr ""
+
+#: postypes/service.php:23
+msgid "New Service"
+msgstr ""
+
+#: postypes/service.php:24
+msgid "View Service"
+msgstr ""
+
+#: postypes/service.php:25
+msgid "Search Services"
+msgstr ""
+
+#: postypes/service.php:26
+msgid "No Services found"
+msgstr ""
+
+#: postypes/service.php:27
+msgid "No Services found in Trash"
+msgstr ""
+
+#: postypes/service.php:68
+msgid "Enter the service name here"
+msgstr ""
+
+#: postypes/service.php:83
+msgid "Service updated. <a href=\"%s\">View Service</a>"
+msgstr ""
+
+#: postypes/service.php:86
+msgid "Service updated."
+msgstr ""
+
+#: postypes/service.php:88
+#. translators: %s: date and time of the revision
+msgid "Service restored to revision from %s"
+msgstr ""
+
+#: postypes/service.php:89
+msgid "Service published. <a href=\"%s\">View service</a>"
+msgstr ""
+
+#: postypes/service.php:90
+msgid "Service saved."
+msgstr ""
+
+#: postypes/service.php:91
+msgid "Service submitted. <a target=\"_blank\" href=\"%s\">Preview service</a>"
+msgstr ""
+
+#: postypes/service.php:92
+msgid ""
+"Service scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview service</a>"
+msgstr ""
+
+#: postypes/service.php:95
+msgid "Service draft updated. <a target=\"_blank\" href=\"%s\">Preview service</a>"
+msgstr ""
+
+#: postypes/slider.php:16 postypes/slider.php:18
+msgid "Sliders"
+msgstr ""
+
+#: postypes/slider.php:17
+msgid "Slider"
+msgstr ""
+
+#: postypes/slider.php:19
+msgid "All Sliders"
+msgstr ""
+
+#: postypes/slider.php:21
+msgid "Add New Slider"
+msgstr ""
+
+#: postypes/slider.php:22
+msgid "Edit Slider"
+msgstr ""
+
+#: postypes/slider.php:23
+msgid "New Slider"
+msgstr ""
+
+#: postypes/slider.php:24
+msgid "View Slider"
+msgstr ""
+
+#: postypes/slider.php:25
+msgid "Search Sliders"
+msgstr ""
+
+#: postypes/slider.php:26
+msgid "No Sliders found"
+msgstr ""
+
+#: postypes/slider.php:27
+msgid "No Sliders found in Trash"
+msgstr ""
+
+#: postypes/slider.php:64
+msgid "Enter the slider name here"
+msgstr ""
+
+#: postypes/slider.php:79
+msgid "Slider updated. <a href=\"%s\">View Slider</a>"
+msgstr ""
+
+#: postypes/slider.php:82
+msgid "Slider updated."
+msgstr ""
+
+#: postypes/slider.php:84
+#. translators: %s: date and time of the revision
+msgid "Slider restored to revision from %s"
+msgstr ""
+
+#: postypes/slider.php:85
+msgid "Slider published. <a href=\"%s\">View slider</a>"
+msgstr ""
+
+#: postypes/slider.php:86
+msgid "Slider saved."
+msgstr ""
+
+#: postypes/slider.php:87
+msgid "Slider submitted. <a target=\"_blank\" href=\"%s\">Preview slider</a>"
+msgstr ""
+
+#: postypes/slider.php:88
+msgid ""
+"Slider scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview slider</a>"
+msgstr ""
+
+#: postypes/slider.php:91
+msgid "Slider draft updated. <a target=\"_blank\" href=\"%s\">Preview slider</a>"
+msgstr ""
+
+#: postypes/slider.php:111
+msgid "Image"
+msgstr ""
+
+#: postypes/team.php:16 postypes/team.php:18
+msgid "Teams"
+msgstr ""
+
+#: postypes/team.php:17
+msgid "Team"
+msgstr ""
+
+#: postypes/team.php:19
+msgid "All Teams"
+msgstr ""
+
+#: postypes/team.php:21
+msgid "Add New Team"
+msgstr ""
+
+#: postypes/team.php:22
+msgid "Edit Team"
+msgstr ""
+
+#: postypes/team.php:23
+msgid "New Team"
+msgstr ""
+
+#: postypes/team.php:24
+msgid "View Team"
+msgstr ""
+
+#: postypes/team.php:25
+msgid "Search Teams"
+msgstr ""
+
+#: postypes/team.php:26
+msgid "No Teams found"
+msgstr ""
+
+#: postypes/team.php:27
+msgid "No Teams found in Trash"
+msgstr ""
+
+#: postypes/team.php:68
+msgid "Enter the team's name here"
+msgstr ""
+
+#: postypes/team.php:83
+msgid "Team updated. <a href=\"%s\">View Team</a>"
+msgstr ""
+
+#: postypes/team.php:86
+msgid "Team updated."
+msgstr ""
+
+#: postypes/team.php:88
+#. translators: %s: date and time of the revision
+msgid "Team restored to revision from %s"
+msgstr ""
+
+#: postypes/team.php:89
+msgid "Team published. <a href=\"%s\">View team</a>"
+msgstr ""
+
+#: postypes/team.php:90
+msgid "Team saved."
+msgstr ""
+
+#: postypes/team.php:91
+msgid "Team submitted. <a target=\"_blank\" href=\"%s\">Preview team</a>"
+msgstr ""
+
+#: postypes/team.php:92
+msgid ""
+"Team scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview team</a>"
+msgstr ""
+
+#: postypes/team.php:95
+msgid "Team draft updated. <a target=\"_blank\" href=\"%s\">Preview team</a>"
+msgstr ""
+
+#: postypes/testimonial.php:16 postypes/testimonial.php:18
+msgid "Testimonials"
+msgstr ""
+
+#: postypes/testimonial.php:17
+msgid "Testimonial"
+msgstr ""
+
+#: postypes/testimonial.php:19
+msgid "All Testimonials"
+msgstr ""
+
+#: postypes/testimonial.php:21
+msgid "Add New Testimonial"
+msgstr ""
+
+#: postypes/testimonial.php:22
+msgid "Edit Testimonial"
+msgstr ""
+
+#: postypes/testimonial.php:23
+msgid "New Testimonial"
+msgstr ""
+
+#: postypes/testimonial.php:24
+msgid "View Testimonial"
+msgstr ""
+
+#: postypes/testimonial.php:25
+msgid "Search Testimonials"
+msgstr ""
+
+#: postypes/testimonial.php:26
+msgid "No Testimonials found"
+msgstr ""
+
+#: postypes/testimonial.php:27
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: postypes/testimonial.php:68
+msgid "Enter the customer's name here"
+msgstr ""
+
+#: postypes/testimonial.php:83
+msgid "Testimonial updated. <a href=\"%s\">View Testimonial</a>"
+msgstr ""
+
+#: postypes/testimonial.php:86
+msgid "Testimonial updated."
+msgstr ""
+
+#: postypes/testimonial.php:88
+#. translators: %s: date and time of the revision
+msgid "Testimonial restored to revision from %s"
+msgstr ""
+
+#: postypes/testimonial.php:89
+msgid "Testimonial published. <a href=\"%s\">View testimonial</a>"
+msgstr ""
+
+#: postypes/testimonial.php:90
+msgid "Testimonial saved."
+msgstr ""
+
+#: postypes/testimonial.php:91
+msgid ""
+"Testimonial submitted. <a target=\"_blank\" href=\"%s\">Preview "
+"testimonial</a>"
+msgstr ""
+
+#: postypes/testimonial.php:92
+msgid ""
+"Testimonial scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview testimonial</a>"
+msgstr ""
+
+#: postypes/testimonial.php:95
+msgid ""
+"Testimonial draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"testimonial</a>"
+msgstr ""
+
+#: postypes/testimonial.php:111
+msgid "Customer Name"
+msgstr ""
+
+#: taxonomies/doctor-tax.php:18
+msgid "View Departments"
+msgstr ""
+
+#: taxonomies/doctor-tax.php:19
+msgid "Update Department"
+msgstr ""
+
+#: taxonomies/doctor-tax.php:21
+msgid "New Department Name"
+msgstr ""
+
+#: taxonomies/doctor-tax.php:22
+msgid "Parent Department"
+msgstr ""
+
+#: taxonomies/doctor-tax.php:23
+msgid "Parent Department:"
+msgstr ""
+
+#: taxonomies/team-tax.php:13 taxonomies/team-tax.php:14
+#: taxonomies/team-tax.php:15
+msgid "Position"
+msgstr ""
+
+#: taxonomies/team-tax.php:16
+msgid "All Position"
+msgstr ""
+
+#: taxonomies/team-tax.php:17
+msgid "Edit Position"
+msgstr ""
+
+#: taxonomies/team-tax.php:18
+msgid "View Position"
+msgstr ""
+
+#: taxonomies/team-tax.php:19
+msgid "Update Position"
+msgstr ""
+
+#: taxonomies/team-tax.php:20
+msgid "Add New Position"
+msgstr ""
+
+#: taxonomies/team-tax.php:21
+msgid "New Position Name"
+msgstr ""
+
+#: taxonomies/team-tax.php:22
+msgid "Parent Position"
+msgstr ""
+
+#: taxonomies/team-tax.php:23
+msgid "Parent Position:"
+msgstr ""
+
+#: taxonomies/team-tax.php:24
+msgid "Search Position"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Junkie Content Types"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/themejunkie/junkie-content-types"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "All-in-one custom content types."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Theme Junkie"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.theme-junkie.com/"
+msgstr ""

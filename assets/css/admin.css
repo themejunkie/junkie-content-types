@@ -1,0 +1,29 @@
+#junkie-types-block {
+	border-bottom: 1px solid #eee;
+	overflow: hidden;
+}
+
+.junkie-types-label {
+	padding: 20px 0;
+	display: inline;
+	float: left;
+	margin-right: 5%;
+	width: 25%;
+}
+
+.junkie-types-label .description {
+	color: #999;
+}
+
+.junkie-types-input {
+	padding: 25px 0;
+	display: inline;
+	float: right;
+	width: 70%;
+}
+
+@media screen and (max-width: 360px) { 
+	.column-thumbnail { 
+		display:none; 
+	}
+}
