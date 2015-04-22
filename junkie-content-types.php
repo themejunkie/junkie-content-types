@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name: Junkie Content Types
- * Plugin URI: https://github.com/themejunkie/junkie-content-types
+ * Plugin URI: https://wordpress.org/plugins/junkie-content-types/
  * Description: All-in-one custom content types.
  * Author: Theme Junkie
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author URI: http://www.theme-junkie.com/
  * License: GPL2+
  * Text Domain: junkie-types
@@ -43,6 +43,15 @@ function junkie_types_enqueue_admin_styles( $hook ) {
 	}
 }
 add_action( 'admin_enqueue_scripts', 'junkie_types_enqueue_admin_styles' );
+
+/**
+ * Remove rewrite rules and then recreate rewrite rules.
+ */
+function junkie_types_flush_rewrites() {
+	flush_rewrite_rules();
+}
+register_activation_hook( __FILE__,   'junkie_types_flush_rewrites' );
+register_deactivation_hook( __FILE__, 'junkie_types_flush_rewrites' );
 
 /**
  * Plugin functions

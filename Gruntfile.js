@@ -7,6 +7,28 @@ module.exports = function(grunt) {
 
 		pkg: grunt.file.readJSON('package.json'),
 
+		// Copy the theme into the build directory
+		copy: {
+			build: {
+				expand: true,
+				src:  [
+					'**',
+					'!node_modules/**',
+					'!build/**',
+					'!.git/**',
+					'!Gruntfile.js',
+					'!package.json',
+					'!.gitignore',
+				],
+				dest: 'build/<%= pkg.name %>/'
+			}
+		},
+
+		// Clean up build directory
+		clean: {
+			build: ['build/<%= pkg.name %>']
+		},
+
 		makepot: {
 			target: {
 				options: {

@@ -141,12 +141,12 @@ function junkie_types_team_save_metaboxes( $post_id, $post ) {
 		return;
 
 	$meta = array(
-		'junkie_types_member_twitter_url'    => esc_url_raw( $_POST['junkie-types-team-twitter'] ),
-		'junkie_types_member_facebook_url'   => esc_url_raw( $_POST['junkie-types-team-facebook'] ),
-		'junkie_types_member_googleplus_url' => esc_url_raw( $_POST['junkie-types-team-gplus'] ),
-		'junkie_types_member_linkedin_url'   => esc_url_raw( $_POST['junkie-types-team-linkedin'] ),
-		'junkie_types_member_pinterest_url'  => esc_url_raw( $_POST['junkie-types-team-pinterest'] ),
-		'junkie_types_member_dribbble_url'   => esc_url_raw( $_POST['junkie-types-team-dribbble'] )
+		'junkie_types_team_twitter_url'    => esc_url_raw( $_POST['junkie-types-team-twitter'] ),
+		'junkie_types_team_facebook_url'   => esc_url_raw( $_POST['junkie-types-team-facebook'] ),
+		'junkie_types_team_googleplus_url' => esc_url_raw( $_POST['junkie-types-team-gplus'] ),
+		'junkie_types_team_linkedin_url'   => esc_url_raw( $_POST['junkie-types-team-linkedin'] ),
+		'junkie_types_team_pinterest_url'  => esc_url_raw( $_POST['junkie-types-team-pinterest'] ),
+		'junkie_types_team_dribbble_url'   => esc_url_raw( $_POST['junkie-types-team-dribbble'] )
 	);
 
 	foreach ( $meta as $meta_key => $new_meta_value ) {
