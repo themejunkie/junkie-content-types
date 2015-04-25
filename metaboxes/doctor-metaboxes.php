@@ -15,7 +15,7 @@ function junkie_types_register_doctor_metaboxes() {
 	// Register the meta box.
 	add_meta_box( 
 		'junkie-types-doctor-metaboxes',
-		esc_html__( 'Social Options', 'junkie-types' ),
+		esc_html__( 'Doctor Options', 'junkie-types' ),
 		'junkie_types_doctor_metaboxes_display',
 		'doctor',
 		'normal',
@@ -37,9 +37,39 @@ function junkie_types_doctor_metaboxes_display( $post ) {
 	<div id="junkie-types-block">
 
 		<div class="junkie-types-label">
+			<label for="junkie-types-doctor-education">
+				<strong><?php _e( 'Education', 'junkie-types' ); ?></strong><br />
+				<span class="description"><?php _e( "The doctor's education", 'junkie-types' ); ?></span>
+			</label>
+		</div>
+
+		<div class="junkie-types-input">
+			<input type="text" name="junkie-types-doctor-education" id="junkie-types-doctor-education" value="<?php echo esc_attr( get_post_meta( $post->ID, 'junkie_types_doctor_education', true ) ); ?>" size="30" style="width: 99%;" />
+		</div>
+
+	</div><!-- #junkie-types-block -->
+
+	<div id="junkie-types-block">
+
+		<div class="junkie-types-label">
+			<label for="junkie-types-doctor-work-days">
+				<strong><?php _e( 'Work Days', 'junkie-types' ); ?></strong><br />
+				<span class="description"><?php _e( "The doctor's work days", 'junkie-types' ); ?></span>
+			</label>
+		</div>
+
+		<div class="junkie-types-input">
+			<input type="text" name="junkie-types-doctor-work-days" id="junkie-types-doctor-work-days" value="<?php echo esc_attr( get_post_meta( $post->ID, 'junkie_types_doctor_work_days', true ) ); ?>" size="30" style="width: 99%;" placeholder="<?php echo esc_attr( 'Wednesday, Thursday, Friday' ); ?>" />
+		</div>
+
+	</div><!-- #junkie-types-block -->
+
+	<div id="junkie-types-block">
+
+		<div class="junkie-types-label">
 			<label for="junkie-types-doctor-twitter">
 				<strong><?php _e( 'Twitter', 'junkie-types' ); ?></strong><br />
-				<span class="description"><?php _e( 'Twitter URL.', 'junkie-types' ); ?></span>
+				<span class="description"><?php _e( 'Twitter URL', 'junkie-types' ); ?></span>
 			</label>
 		</div>
 
@@ -54,7 +84,7 @@ function junkie_types_doctor_metaboxes_display( $post ) {
 		<div class="junkie-types-label">
 			<label for="junkie-types-doctor-facebook">
 				<strong><?php _e( 'Facebook', 'junkie-types' ); ?></strong><br />
-				<span class="description"><?php _e( 'Facebook URL.', 'junkie-types' ); ?></span>
+				<span class="description"><?php _e( 'Facebook URL', 'junkie-types' ); ?></span>
 			</label>
 		</div>
 
@@ -69,7 +99,7 @@ function junkie_types_doctor_metaboxes_display( $post ) {
 		<div class="junkie-types-label">
 			<label for="junkie-types-doctor-gplus">
 				<strong><?php _e( 'Google Plus', 'junkie-types' ); ?></strong><br />
-				<span class="description"><?php _e( 'Google Plus URL.', 'junkie-types' ); ?></span>
+				<span class="description"><?php _e( 'Google Plus URL', 'junkie-types' ); ?></span>
 			</label>
 		</div>
 
@@ -84,42 +114,12 @@ function junkie_types_doctor_metaboxes_display( $post ) {
 		<div class="junkie-types-label">
 			<label for="junkie-types-doctor-linkedin">
 				<strong><?php _e( 'LinkedIn', 'junkie-types' ); ?></strong><br />
-				<span class="description"><?php _e( 'LinkedIn URL.', 'junkie-types' ); ?></span>
+				<span class="description"><?php _e( 'LinkedIn URL', 'junkie-types' ); ?></span>
 			</label>
 		</div>
 
 		<div class="junkie-types-input">
 			<input type="text" name="junkie-types-doctor-linkedin" id="junkie-types-doctor-linkedin" value="<?php echo esc_url( get_post_meta( $post->ID, 'junkie_types_doctor_linkedin_url', true ) ); ?>" size="30" style="width: 99%;" placeholder="<?php echo esc_attr( 'https://www.linkedin.com/in/username' ); ?>" />
-		</div>
-
-	</div><!-- #junkie-types-block -->
-
-	<div id="junkie-types-block">
-
-		<div class="junkie-types-label">
-			<label for="junkie-types-doctor-pinterest">
-				<strong><?php _e( 'Pinterest', 'junkie-types' ); ?></strong><br />
-				<span class="description"><?php _e( 'Pinterest URL.', 'junkie-types' ); ?></span>
-			</label>
-		</div>
-
-		<div class="junkie-types-input">
-			<input type="text" name="junkie-types-doctor-pinterest" id="junkie-types-doctor-pinterest" value="<?php echo esc_url( get_post_meta( $post->ID, 'junkie_types_doctor_pinterest_url', true ) ); ?>" size="30" style="width: 99%;" placeholder="<?php echo esc_attr( 'https://pinterest.com/username' ); ?>" />
-		</div>
-
-	</div><!-- #junkie-types-block -->
-
-	<div id="junkie-types-block">
-
-		<div class="junkie-types-label">
-			<label for="junkie-types-doctor-dribbble">
-				<strong><?php _e( 'Dribbble', 'junkie-types' ); ?></strong><br />
-				<span class="description"><?php _e( 'Dribbble URL.', 'junkie-types' ); ?></span>
-			</label>
-		</div>
-
-		<div class="junkie-types-input">
-			<input type="text" name="junkie-types-doctor-dribbble" id="junkie-types-doctor-dribbble" value="<?php echo esc_url( get_post_meta( $post->ID, 'junkie_types_doctor_dribbble_url', true ) ); ?>" size="30" style="width: 99%;" placeholder="<?php echo esc_attr( 'https://dribbble.com/username' ); ?>" />
 		</div>
 
 	</div><!-- #junkie-types-block -->
@@ -141,12 +141,12 @@ function junkie_types_doctor_save_metaboxes( $post_id, $post ) {
 		return;
 
 	$meta = array(
+		'junkie_types_doctor_education'      => esc_attr( $_POST['junkie-types-doctor-education'] ),
+		'junkie_types_doctor_work_days'      => esc_attr( $_POST['junkie-types-doctor-work-days'] ),
 		'junkie_types_doctor_twitter_url'    => esc_url_raw( $_POST['junkie-types-doctor-twitter'] ),
 		'junkie_types_doctor_facebook_url'   => esc_url_raw( $_POST['junkie-types-doctor-facebook'] ),
 		'junkie_types_doctor_googleplus_url' => esc_url_raw( $_POST['junkie-types-doctor-gplus'] ),
-		'junkie_types_doctor_linkedin_url'   => esc_url_raw( $_POST['junkie-types-doctor-linkedin'] ),
-		'junkie_types_doctor_pinterest_url'  => esc_url_raw( $_POST['junkie-types-doctor-pinterest'] ),
-		'junkie_types_doctor_dribbble_url'   => esc_url_raw( $_POST['junkie-types-doctor-dribbble'] )
+		'junkie_types_doctor_linkedin_url'   => esc_url_raw( $_POST['junkie-types-doctor-linkedin'] )
 	);
 
 	foreach ( $meta as $meta_key => $new_meta_value ) {
