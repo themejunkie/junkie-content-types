@@ -13,7 +13,7 @@ function junkie_types_department_replace_featured_image_title() {
 		return;
 
     remove_meta_box( 'postimagediv', 'department', 'side' );
-    add_meta_box( 'postimagediv', __( "Department's Picture", 'junkie-types' ), 'post_thumbnail_meta_box', 'department', 'side', 'default' );
+    add_meta_box( 'postimagediv', __( "Department's Picture or Icon", 'junkie-types' ), 'post_thumbnail_meta_box', 'department', 'side', 'default' );
 
 }
 add_action( 'do_meta_boxes', 'junkie_types_department_replace_featured_image_title' );

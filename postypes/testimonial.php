@@ -45,7 +45,7 @@ function junkie_types_register_testimonial_post_type() {
 		'public'              => true,
 		'exclude_from_search' => true,
 		'show_ui'             => true,
-		'menu_position'       => 20,
+		'menu_position'       => 24,
 		'menu_icon'           => 'dashicons-testimonial',
 		'capability_type'     => 'page',
 		'map_meta_cap'        => true,

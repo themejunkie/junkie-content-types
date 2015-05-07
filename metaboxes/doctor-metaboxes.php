@@ -19,7 +19,7 @@ function junkie_types_register_doctor_metaboxes() {
 		'junkie_types_doctor_metaboxes_display',
 		'doctor',
 		'normal',
-		'high'
+		'default'
 	);
 
 }

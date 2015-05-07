@@ -19,7 +19,7 @@ function junkie_types_register_team_metaboxes() {
 		'junkie_types_team_metaboxes_display',
 		'team',
 		'normal',
-		'high'
+		'default'
 	);
 
 }

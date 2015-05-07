@@ -33,6 +33,7 @@ function junkie_types_register_service_post_type() {
 			'title',
 			'editor',
 			'thumbnail',
+			'excerpt',
 			'revisions',
 			'page-attributes',
 		),
