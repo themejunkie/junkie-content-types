@@ -79,6 +79,21 @@ function junkie_types_testimonial_metaboxes_display( $post ) {
 
 	</div><!-- #junkie-types-block -->
 
+	<div id="junkie-types-block">
+
+		<div class="junkie-types-label">
+			<label for="junkie-types-testimonial-role">
+				<strong><?php _e( 'Role', 'junkie-types' ); ?></strong><br />
+				<span class="description"><?php _e( "Customer's role", 'junkie-types' ); ?></span>
+			</label>
+		</div>
+
+		<div class="junkie-types-input">
+			<input type="text" name="junkie-types-testimonial-role" id="junkie-types-testimonial-role" value="<?php echo esc_attr( get_post_meta( $post->ID, 'junkie_types_testimonial_role', true ) ); ?>" size="30" style="width: 99%;" placeholder="<?php echo esc_attr( 'Manager' ); ?>" />
+		</div>
+
+	</div><!-- #junkie-types-block -->
+
 	<?php do_action( 'junkie_types_testimonial_metaboxes_after' ); ?>
 
 	<?php
@@ -99,6 +114,7 @@ function junkie_types_testimonial_save_metaboxes( $post_id, $post ) {
 		'junkie_types_testimonial_website_name' => esc_attr( $_POST['junkie-types-testimonial-website-name'] ),
 		'junkie_types_testimonial_website_url'  => esc_url_raw( $_POST['junkie-types-testimonial-website-url'] ),
 		'junkie_types_testimonial_age'          => esc_attr( $_POST['junkie-types-testimonial-age'] ),
+		'junkie_types_testimonial_role'         => esc_attr( $_POST['junkie-types-testimonial-role'] ),
 	);
 
 	foreach ( $meta as $meta_key => $new_meta_value ) {

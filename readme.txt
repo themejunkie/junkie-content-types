@@ -2,8 +2,8 @@
 Contributors: themejunkie, satrya
 Tags: custom post type, post type, slider, service, team, testimonial, doctor, department, feature
 Requires at least: 3.8
-Tested up to: 4.2.2
-Stable tag: 1.1.3
+Tested up to: 4.2.1
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -75,6 +75,9 @@ add_theme_support( 'junkie-slider' );
 `
 
 == Changelog ==
+
+= 1.1.4 - 06/12/2015 =
+* Add **Role** metabox to the testimonial post type.
 
 = 1.1.3 - 05/07/2015 =
 * Add 'excerpt' support to Department, Doctor, Feature, Service and Team post type

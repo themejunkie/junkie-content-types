@@ -4,7 +4,7 @@
  * Plugin URI: https://wordpress.org/plugins/junkie-content-types/
  * Description: All-in-one custom content types.
  * Author: Theme Junkie
- * Version: 1.1.3
+ * Version: 1.1.4
  * Author URI: http://www.theme-junkie.com/
  * License: GPL2+
  * Text Domain: junkie-types
