@@ -88,6 +88,9 @@ function junkie_types_theme_support() {
 		require_once( JUNKIE_TYPES_TYPE . 'doctor.php' );
 		require_once( JUNKIE_TYPES_TAX .  'doctor-tax.php' );
 		require_once( JUNKIE_TYPES_META . 'doctor-metaboxes.php' );
+		if ( class_exists( 'acf' ) ) {
+			require_once( JUNKIE_TYPES_META . 'doctor-acf.php' );
+		}		
 	}
 
 	/**
